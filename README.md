@@ -1,4 +1,4 @@
-# Stocker
+# stocker
 
 온라인 쇼핑몰 재고 수집기
 
