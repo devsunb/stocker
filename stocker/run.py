@@ -9,9 +9,6 @@ from stocker.bot.embuy_bot import EMBuyBot
 from stocker.bot.lotteimall_bot import LotteIMallBot
 from stocker.bot.nnmarket_bot import NnMarketBot
 from stocker.bot.wemakeprice_bot import WeMakePriceBot
-from stocker.bot.wemakeprice_find2_bot import WeMakePriceFind2Bot
-from stocker.bot.wemakeprice_find3_bot import WeMakePriceFind3Bot
-from stocker.bot.wemakeprice_find_bot import WeMakePriceFindBot
 from stocker.bot.yes24_bot import YES24Bot
 from stocker.output.influxdb import InfluxDB
 from stocker.util.parse import parse_config
@@ -26,9 +23,6 @@ site_bots = {
     NnMarketBot.site_name: NnMarketBot,
     DaewonshopBot.site_name: DaewonshopBot,
     WeMakePriceBot.site_name: WeMakePriceBot,
-    WeMakePriceFindBot.site_name: WeMakePriceFindBot,
-    WeMakePriceFind2Bot.site_name: WeMakePriceFind2Bot,
-    WeMakePriceFind3Bot.site_name: WeMakePriceFind3Bot
 }
 outputs = {
     InfluxDB.output_name: InfluxDB
